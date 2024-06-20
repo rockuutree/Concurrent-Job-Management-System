@@ -1,0 +1,7 @@
+jobs:
+  - name: foo
+  - name: bar
+  - name: baz
+    dependsOn:
+      - foo
+      - bar

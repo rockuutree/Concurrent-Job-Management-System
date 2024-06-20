@@ -1,0 +1,13 @@
+digraph G {
+  "hello";
+  "world";
+  "what";
+  "is";
+  "your";
+  "name?";
+  "done";
+  "hello" -> "world";
+  "what" -> "is";
+  "is" -> "your";
+  "your" -> "name?";
+}

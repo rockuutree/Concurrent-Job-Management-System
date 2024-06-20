@@ -1,0 +1,8 @@
+jobs:
+  - ls
+  - name: cd
+    delay: 2
+  - name: echo
+    dependsOn: 
+    - ls
+    delay: 3

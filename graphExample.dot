@@ -1,0 +1,7 @@
+digraph G {
+  "foo";
+  "bar";
+  "baz";
+  "foo" -> "baz";
+  "bar" -> "baz";
+}
